@@ -7,6 +7,8 @@ ruby '2.6.3'
 gem 'rails', github: 'rails/rails', branch: 'master'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4'
+# Add sqlite3 for development
+gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
